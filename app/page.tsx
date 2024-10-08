@@ -22,8 +22,8 @@ export default async function Home({ searchParams }: { searchParams: any }) {
 
     // Fetch characters on server side
     const data = await getCharacters(page, status, gender);
-    const characters = data.results || []; // Defaults to an empty array
-    const totalPages = data.info?.pages || 1; // Default to 1 if pages are not available
+    const characters = data.results || [];
+    const totalPages = data.info?.pages || 1;
 
     return (
         <div className="p-8">
