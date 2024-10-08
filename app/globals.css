@@ -18,6 +18,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url('public/stars_space_darkness_919049_1920x1080.jpg');
 }
 
 @layer utilities {
